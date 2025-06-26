@@ -10,7 +10,3 @@ con.connect(function(err){
     if(err) throw err;
     console.log('Connected');
 });
-
-document.addEventListener('DOMContentLoaded',(e) => {
-    console.log("Dom fully loaded!")
-});
