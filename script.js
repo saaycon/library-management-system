@@ -11,4 +11,6 @@ con.connect(function(err){
     console.log('Connected');
 });
 
-document.addEventListener('DOMContentLoaded',)
+document.addEventListener('DOMContentLoaded',(e) => {
+    console.log("Dom fully loaded!")
+});
