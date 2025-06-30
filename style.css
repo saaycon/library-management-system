@@ -41,3 +41,13 @@ body {
     opacity: 0.4;
     z-index: -1;
 }
+
+.nav-list {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    list-style: none;
+    gap: 0.5rem;
+    background-color: #333;
+    color: white;
+}
